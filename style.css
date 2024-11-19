@@ -1,0 +1,30 @@
+.card:hover {
+    background-color: white;
+    margin: relative;
+    box-shadow: 3px 3px 8px 8px rgb(0, 0, 0, .2);
+    transition: all 0.3s ease 0s;
+}
+.card {
+    align-items: center;
+}
+.col13 {
+    align-items: center;
+}
+h2::before {
+    background-color: lightskyblue;
+    content: '';
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 25%;
+}
+h2::after {
+    background-color: lightskyblue;
+    content: '';
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 25%;
+}
